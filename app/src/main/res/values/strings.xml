@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">biblioteca</string>
+    <string name="empresa_detalhes">Sobre a Empresa</string>
+    <string name="botao_logar">Logar</string>
+    <string name="texto_cadastro">Não tem conta? Cadastra-se</string>
+    <string name="botao_cadastrar">CADASTRAR</string>
+    <string name="abrirCadastroUsuario">abrirCadastroUsuario</string>
+    <string name="item_configuracao">Configurações</string>
+    <string name="item_sair">Sair</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_validador">ValidadorActivity</string>
+    <string name="texto_cadastre">Não tem conta? Cadastre-se</string>
+    <string name="title_activity_cadastro_usuario">CadastroUsuarioActivity</string>
+</resources>

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "981244060716",
+    "firebase_url": "https://library-2d8b1.firebaseio.com",
+    "project_id": "library-2d8b1",
+    "storage_bucket": "library-2d8b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981244060716:android:7fb0c9974df599d8",
+        "android_client_info": {
+          "package_name": "br.edu.unp.biblioteca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981244060716-6gj4nc8821st4v22215cf90kfm4pgcdt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.unp.biblioteca",
+            "certificate_hash": "270aca40720e962dbbfbbeef939be983dd75a72c"
+          }
+        },
+        {
+          "client_id": "981244060716-s7uoa0hmvkqkvc2j0pv8uoe0s6m2oe4c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.unp.biblioteca",
+            "certificate_hash": "d69b5af8beba7d8372ea14e0df5e6358b23dda44"
+          }
+        },
+        {
+          "client_id": "981244060716-a196gocqro7e14vvuldngtqthtje1iv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR6ml1FrF4UuT1Ly4f5XKhuGjVheRypLs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981244060716-a196gocqro7e14vvuldngtqthtje1iv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

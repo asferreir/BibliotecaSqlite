@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".activity.MainActivity">
+
+    <include android:id="@+id/toolbar"
+     layout="@layout/toolbar"/>
+
+
+    <ImageView
+        android:id="@+id/logoId"
+        android:layout_width="260dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/btnEmprestar"
+        android:layout_width="80dp"
+        android:layout_height="115dp"
+        android:layout_alignStart="@+id/btnPesquisar"
+        android:layout_centerVertical="true"
+        android:src="@drawable/out_book" />
+
+    <ImageView
+        android:id="@+id/btnPesquisar"
+        android:layout_width="80dp"
+        android:layout_height="115dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/logoId"
+        android:layout_marginBottom="51dp"
+        android:src="@drawable/search_book" />
+
+    <ImageView
+        android:id="@+id/btnDevolver"
+        android:layout_width="80dp"
+        android:layout_height="115dp"
+        android:layout_alignStart="@+id/btnAdicionar"
+        android:layout_alignTop="@+id/btnEmprestar"
+        android:src="@drawable/in_book" />
+
+
+    <ImageView
+        android:id="@+id/btnAdicionar"
+        android:layout_width="80dp"
+        android:layout_height="115dp"
+        android:layout_alignEnd="@+id/logoId"
+        android:layout_alignTop="@+id/btnPesquisar"
+        android:src="@drawable/add_book" />
+
+
+</RelativeLayout>
